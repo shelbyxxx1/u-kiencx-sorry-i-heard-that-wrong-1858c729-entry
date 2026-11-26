@@ -1,0 +1,6 @@
+make.fun submission: 01a2178f-f056-745f-bb18-a283e37cd1ef
+competition: u-kiencx-sorry-i-heard-that-wrong-1858c729
+repo: https://github.com/shelbyxxx1/u-kiencx-sorry-i-heard-that-wrong-1858c729-entry
+commit: 448e629f30a99422cf4c0456268cdc857a2be97e
+title: Smart speaker books a stable for two by mistake
+submitted: 2026-11-26T11:13:58Z (18:13 WIB), round 2 of 3
