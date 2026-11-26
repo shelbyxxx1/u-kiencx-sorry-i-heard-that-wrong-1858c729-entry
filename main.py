@@ -1,3 +1,8 @@
+"""Write one 129-character apology line to /output/entry.txt.
+Use $MAKEFUN_OUTPUT_DIR instead when set and nonempty.
+Python standard library only; deterministic; exit 0.
+"""
+
 import os
 import shutil
 from pathlib import Path
@@ -10,7 +15,7 @@ APOLOGY = (
 
 
 def main():
-    output_dir = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
+    output_dir = Path(os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output")
     output_dir.mkdir(parents=True, exist_ok=True)
 
     for stale_path in output_dir.iterdir():
